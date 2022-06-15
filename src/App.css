@@ -1,0 +1,102 @@
+*{
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.header{
+  min-height: 40vh;
+  min-width: 40vw;
+  background-image: url(/src/img/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.search-bar{
+  background-color: #061B20;
+}
+
+
+.input{
+  margin-top: 15px;
+  background-color:#1d343a;
+  color: white;
+  height: 40px;
+  width: 350px;
+  border-radius: 5px;
+  border: none;
+}
+
+button{
+  border-radius: 5px;
+  border: none;
+  margin-top: 15px;
+  background-color:#1d343a;
+  color: white;
+  height: 40px;
+}
+
+button:hover{
+  background-color: #5a747a;
+}
+
+article{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  min-height: 54vh;
+  max-width: 100vw;
+  background-color: #061B20;
+  color: #ceeff8 ;
+}
+
+.location-info{
+  max-width: auto;
+  justify-content: space-between;
+  background-color: #1d343a;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  line-height: 22px;
+}
+
+.info-span{
+  color: white;
+}
+
+.residents-list{
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.character-card{
+  background-color: #1d343a;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 30vw;
+  min-height: 30vh;
+  border-radius: 10px;
+  position: relative;
+}
+
+.status{
+  z-index: 2;
+  left: 20;
+}
+
+img{
+  border-radius: 5px;
+}
+
+.resident-info{
+  padding-top: 15px;
+}
