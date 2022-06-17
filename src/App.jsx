@@ -53,7 +53,7 @@ function App() {
 
       <article>
         <header className="location-info">
-          <div>Location name: <span className='info-span'>{}</span></div>
+          <div>Location name: <span className='info-span'>{locationData?.name}</span></div>
           <div>Type: <span className="info-span">{locationData?.type}</span></div>
           <div>Dimension: <span className="info-span">{locationData?.dimension}</span></div>
           <div>Residents: <span className="info-span">{locationData?.residents.length}</span></div>
